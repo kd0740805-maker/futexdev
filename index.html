@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Futex — Engineering Digital Solutions That Work</title>
+<meta name="description" content="Futex designs and develops custom websites, web applications, mobile applications and software built around your unique needs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="navbar__inner container">
+    <a href="#home" class="navbar__logo" aria-label="Futex home">
+      <span class="navbar__logo-mark" aria-hidden="true"></span>
+      Futex
+    </a>
+
+    <nav class="navbar__nav" id="primary-nav" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#solutions">Solutions</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="navbar__actions">
+      <a href="#contact" class="btn btn--primary btn--sm navbar__cta">Start a Project</a>
+      <button class="navbar__toggle" id="navToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <nav aria-label="Mobile">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#solutions">Solutions</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn--primary mobile-menu__cta">Start a Project</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="container hero__grid">
+
+      <div class="hero__content reveal">
+        <p class="hero__kicker">Custom software &amp; digital products</p>
+        <h1 class="hero__headline">Engineering Digital Solutions That Work.</h1>
+        <p class="hero__subtext">
+          Futex designs and develops custom websites, applications and digital
+          products built around your unique needs.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">Start a Project</a>
+          <a href="#projects" class="btn btn--ghost">Explore Our Work</a>
+        </div>
+
+        <dl class="hero__stats">
+          <div>
+            <dt>Products shipped</dt>
+            <dd>60+</dd>
+          </div>
+          <div>
+            <dt>Avg. response time</dt>
+            <dd>&lt; 24h</dd>
+          </div>
+          <div>
+            <dt>Client retention</dt>
+            <dd>94%</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="hero__visual reveal" aria-hidden="true">
+        <div class="orb-panel">
+          <div class="orb-panel__ring orb-panel__ring--outer"></div>
+          <div class="orb-panel__ring orb-panel__ring--inner"></div>
+          <div class="orb-panel__core"></div>
+
+          <div class="orb-node orb-node--1">
+            <span class="orb-node__dot"></span>
+            <span class="orb-node__label">API</span>
+          </div>
+          <div class="orb-node orb-node--2">
+            <span class="orb-node__dot"></span>
+            <span class="orb-node__label">Mobile</span>
+          </div>
+          <div class="orb-node orb-node--3">
+            <span class="orb-node__dot"></span>
+            <span class="orb-node__label">Cloud</span>
+          </div>
+
+          <div class="glass-card glass-card--metric">
+            <span class="glass-card__label">System uptime</span>
+            <span class="glass-card__value">99.98%</span>
+            <div class="glass-card__bars">
+              <i style="--h:40%"></i><i style="--h:65%"></i><i style="--h:50%"></i>
+              <i style="--h:80%"></i><i style="--h:60%"></i><i style="--h:90%"></i>
+              <i style="--h:70%"></i>
+            </div>
+          </div>
+
+          <div class="glass-card glass-card--build">
+            <span class="glass-card__dot glass-card__dot--live"></span>
+            Build deployed to production
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Technology Built Around Your Needs.</h2>
+        <p>We turn ideas, challenges and requirements into reliable digital products.</p>
+      </div>
+
+      <div class="services__grid">
+
+        <article class="service-card reveal">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><rect x="4" y="8" width="32" height="22" rx="3" stroke="currentColor" stroke-width="1.6"/><path d="M4 15h32" stroke="currentColor" stroke-width="1.6"/><circle cx="9" cy="11.5" r="1" fill="currentColor"/><circle cx="13" cy="11.5" r="1" fill="currentColor"/><path d="M14 34h12M20 30v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Web Development</h3>
+          <p>Fast, responsive and modern websites built around your brand and business goals.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><rect x="5" y="6" width="30" height="28" rx="3" stroke="currentColor" stroke-width="1.6"/><path d="M11 14h18M11 20h18M11 26h10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Web Applications</h3>
+          <p>Powerful custom web applications designed to solve real-world business problems.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><rect x="12" y="4" width="16" height="32" rx="3" stroke="currentColor" stroke-width="1.6"/><path d="M17 31h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Mobile Applications</h3>
+          <p>User-focused mobile experiences designed for performance, usability and scale.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M20 5l4.5 3.2 5.4-.6 1.9 5.1 4.2 3.3-2.1 5 2.1 5-4.2 3.3-1.9 5.1-5.4-.6L20 35l-4.5-3.2-5.4.6-1.9-5.1-4.2-3.3 2.1-5-2.1-5 4.2-3.3 1.9-5.1 5.4.6L20 5z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><circle cx="20" cy="20" r="5" stroke="currentColor" stroke-width="1.6"/></svg>
+          </div>
+          <h3>Custom Software</h3>
+          <p>Tailored digital solutions created specifically around your workflow, requirements and objectives.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY FUTEX ============ -->
+  <section class="why" id="solutions">
+    <div class="container why__grid">
+
+      <div class="why__intro reveal">
+        <h2>Why teams choose Futex.</h2>
+        <p>
+          At Futex, we believe technology should adapt to people — not the
+          other way around. We work with businesses, organisations and
+          individuals to transform ideas and requirements into practical
+          digital products.
+        </p>
+        <a href="#about" class="text-link">More about Futex →</a>
+      </div>
+
+      <ul class="why__list">
+        <li class="why__item reveal">
+          <span class="why__index">01</span>
+          <div>
+            <h3>Built Around Your Needs</h3>
+            <p>We don't force your idea into a template. We build around your requirements.</p>
+          </div>
+        </li>
+        <li class="why__item reveal">
+          <span class="why__index">02</span>
+          <div>
+            <h3>Modern Technology</h3>
+            <p>We use modern development technologies and development practices.</p>
+          </div>
+        </li>
+        <li class="why__item reveal">
+          <span class="why__index">03</span>
+          <div>
+            <h3>Performance First</h3>
+            <p>Every product is designed with speed, responsiveness and usability in mind.</p>
+          </div>
+        </li>
+        <li class="why__item reveal">
+          <span class="why__index">04</span>
+          <div>
+            <h3>Built to Scale</h3>
+            <p>We create solutions that can grow alongside your business.</p>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section class="process">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Our Process.</h2>
+        <p>A clear path from first conversation to a finished product.</p>
+      </div>
+
+      <ol class="process__timeline">
+        <li class="process__step reveal">
+          <span class="process__number">01</span>
+          <h3>Discover</h3>
+          <p>We understand your idea, goals and requirements.</p>
+        </li>
+        <li class="process__step reveal">
+          <span class="process__number">02</span>
+          <h3>Plan</h3>
+          <p>We define the architecture, features and user experience.</p>
+        </li>
+        <li class="process__step reveal">
+          <span class="process__number">03</span>
+          <h3>Build</h3>
+          <p>We design, develop and test the solution.</p>
+        </li>
+        <li class="process__step reveal">
+          <span class="process__number">04</span>
+          <h3>Launch</h3>
+          <p>We deploy your product and help you move forward.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Built for Real-World Impact.</h2>
+        <p>A sample of the kind of products we build — swap these for real Futex work.</p>
+      </div>
+
+      <div class="projects__grid">
+
+        <article class="project-card reveal">
+          <div class="project-card__media project-card__media--1" aria-hidden="true">
+            <div class="mock-window">
+              <div class="mock-window__bar"><span></span><span></span><span></span></div>
+              <div class="mock-window__body">
+                <div class="mock-line mock-line--w60"></div>
+                <div class="mock-line mock-line--w80"></div>
+                <div class="mock-grid">
+                  <div></div><div></div><div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__tag">Web Platform · Fintech</span>
+            <h3>Ledgerline</h3>
+            <p>A real-time expense and invoicing dashboard for small finance teams.</p>
+            <a href="#contact" class="text-link">View Project →</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-card__media project-card__media--2" aria-hidden="true">
+            <div class="mock-phone">
+              <div class="mock-phone__notch"></div>
+              <div class="mock-phone__body">
+                <div class="mock-line mock-line--w40"></div>
+                <div class="mock-card"></div>
+                <div class="mock-card"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__tag">Mobile App · Logistics</span>
+            <h3>Routeon</h3>
+            <p>A driver-facing app for scheduling, tracking and confirming deliveries.</p>
+            <a href="#contact" class="text-link">View Project →</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-card__media project-card__media--3" aria-hidden="true">
+            <div class="mock-window">
+              <div class="mock-window__bar"><span></span><span></span><span></span></div>
+              <div class="mock-window__body">
+                <div class="mock-chart">
+                  <i style="--h:35%"></i><i style="--h:55%"></i><i style="--h:30%"></i>
+                  <i style="--h:70%"></i><i style="--h:45%"></i><i style="--h:85%"></i>
+                </div>
+                <div class="mock-line mock-line--w60"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__tag">Custom Software · Retail</span>
+            <h3>Stocklane</h3>
+            <p>An internal inventory and order-management system built around one client's workflow.</p>
+            <a href="#contact" class="text-link">View Project →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="container about__grid">
+      <div class="about__visual reveal" aria-hidden="true">
+        <div class="about__frame">
+          <span class="about__frame-line"></span>
+          <span class="about__frame-line"></span>
+          <span class="about__frame-line"></span>
+        </div>
+      </div>
+      <div class="about__content reveal">
+        <h2>About Futex.</h2>
+        <p>
+          At Futex, we believe technology should adapt to people — not the
+          other way around.
+        </p>
+        <p>
+          We work with businesses, organisations and individuals to transform
+          ideas and requirements into practical digital products, from a
+          single landing page to a full custom platform.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="cta-final" id="contact">
+  <div class="cta-final__glow" aria-hidden="true"></div>
+
+  <div class="container project-form-section">
+
+```
+<div class="project-form-intro reveal">
+  <span class="project-form__eyebrow">START A PROJECT</span>
+
+  <h2>Have an Idea?<br>Let's Build It.</h2>
+
+  <p>
+    Tell us what you're building, what you need, and where you want to go.
+    We'll get back to you within 24 hours.
+  </p>
+
+  <div class="project-form__trust">
+    <div>
+      <span class="project-form__trust-icon">✓</span>
+      <span>Free initial consultation</span>
+    </div>
+
+    <div>
+      <span class="project-form__trust-icon">✓</span>
+      <span>Tailored solutions</span>
+    </div>
+
+    <div>
+      <span class="project-form__trust-icon">✓</span>
+      <span>Response within 24h</span>
+    </div>
+  </div>
+</div>
+
+<div class="project-form-wrapper reveal">
+
+  <form
+    id="project-form"
+    class="project-form"
+    action="https://formspree.io/f/YOUR_FORM_ID"
+    method="POST"
+  >
+
+    <input type="hidden" name="_subject" value="New Futex Project Inquiry">
+
+    <div class="project-form__row">
+
+      <div class="form-field">
+        <label for="project-name">Your name <span>*</span></label>
+        <input
+          type="text"
+          id="project-name"
+          name="name"
+          placeholder="John Doe"
+          required
+          autocomplete="name"
+        >
+      </div>
+
+      <div class="form-field">
+        <label for="project-email">Email address <span>*</span></label>
+        <input
+          type="email"
+          id="project-email"
+          name="email"
+          placeholder="john@example.com"
+          required
+          autocomplete="email"
+        >
+      </div>
+
+    </div>
+
+    <div class="project-form__row">
+
+      <div class="form-field">
+        <label for="project-company">Company / Organisation</label>
+        <input
+          type="text"
+          id="project-company"
+          name="company"
+          placeholder="Your company"
+          autocomplete="organization"
+        >
+      </div>
+
+      <div class="form-field">
+        <label for="project-service">What do you need? <span>*</span></label>
+
+        <select id="project-service" name="service" required>
+          <option value="" disabled selected>Select a service</option>
+          <option value="Web Development">Web Development</option>
+          <option value="Web Application">Web Application</option>
+          <option value="Mobile Application">Mobile Application</option>
+          <option value="Custom Software">Custom Software</option>
+          <option value="Other">Something else</option>
+        </select>
+      </div>
+
+    </div>
+
+    <div class="form-field">
+      <label for="project-budget">Estimated budget</label>
+
+      <select id="project-budget" name="budget">
+        <option value="" disabled selected>Select a budget range</option>
+        <option value="Under ₦100,000">Under ₦100,000</option>
+        <option value="₦100,000 – ₦250,000">₦100,000 – ₦250,000</option>
+        <option value="₦250,000 – ₦500,000">₦250,000 – ₦500,000</option>
+        <option value="₦500,000 – ₦1,000,000">₦500,000 – ₦1,000,000</option>
+        <option value="₦1,000,000+">₦1,000,000+</option>
+        <option value="Not sure yet">I'm not sure yet</option>
+      </select>
+    </div>
+
+    <div class="form-field">
+      <label for="project-message">
+        Tell us about your project <span>*</span>
+      </label>
+
+      <textarea
+        id="project-message"
+        name="message"
+        rows="6"
+        placeholder="What are you trying to build? What problem should it solve?"
+        required
+      ></textarea>
+    </div>
+
+    <div class="form-field">
+      <label for="project-timeline">Preferred timeline</label>
+
+      <select id="project-timeline" name="timeline">
+        <option value="" disabled selected>When would you like to start?</option>
+        <option value="As soon as possible">As soon as possible</option>
+        <option value="Within 1 month">Within 1 month</option>
+        <option value="1–3 months">1–3 months</option>
+        <option value="3+ months">3+ months</option>
+        <option value="Just exploring">Just exploring for now</option>
+      </select>
+    </div>
+
+    <button
+      type="submit"
+      class="btn btn--primary btn--lg project-form__submit"
+      id="project-submit"
+    >
+      <span class="project-form__submit-text">Send Project Inquiry</span>
+      <span class="project-form__spinner" aria-hidden="true"></span>
+      <span class="project-form__arrow">→</span>
+    </button>
+
+    <p class="project-form__note">
+      By submitting this form, you agree to be contacted about your project.
+    </p>
+
+    <div
+      class="project-form__success"
+      id="project-success"
+      role="status"
+      aria-live="polite"
+    >
+      <span>✓</span>
+      <div>
+        <strong>Project inquiry sent.</strong>
+        <p>Thanks for reaching out. We'll get back to you shortly.</p>
+      </div>
+    </div>
+
+    <div
+      class="project-form__error"
+      id="project-error"
+      role="alert"
+    >
+      Something went wrong. Please try again or email us directly at
+      hello@futex.dev.
+    </div>
+
+  </form>
+
+</div>
+```
+
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a href="#home" class="navbar__logo">
+        <span class="navbar__logo-mark" aria-hidden="true"></span>
+        Futex
+      </a>
+      <p>Engineering Digital Solutions That Work.</p>
+    </div>
+
+    <nav class="footer__links" aria-label="Footer">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#solutions">Solutions</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="footer__social" aria-label="Social media">
+      <a href="#" aria-label="Futex on X">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M3 3h4.6l4 5.6L16.4 3H21l-6.9 8.6L21.4 21h-4.6l-4.3-6-5.1 6H3l7.3-8.6L3 3z"/></svg>
+      </a>
+      <a href="#" aria-label="Futex on LinkedIn">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM3.5 9.5h3v11h-3v-11zm6.5 0h2.9v1.5h.04c.4-.76 1.4-1.56 2.9-1.56 3.1 0 3.66 2 3.66 4.6v6.46h-3v-5.73c0-1.37-.03-3.13-1.9-3.13-1.9 0-2.2 1.5-2.2 3.03v5.83h-3v-11z"/></svg>
+      </a>
+      <a href="#" aria-label="Futex on GitHub">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2a10 10 0 00-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.15-1.11-1.46-1.11-1.46-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.1.39-1.99 1.03-2.7-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.6 9.6 0 015 0c1.9-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.71 1.03 1.6 1.03 2.7 0 3.84-2.35 4.68-4.58 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0012 2z"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="container footer__bottom">
+    <p>© 2026 Futex. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
